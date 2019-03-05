@@ -1,0 +1,598 @@
+@font-face {
+    font-family: 'atlas'; /*a name to be used later*/
+    src: url(./images/atlas/AtlasGrotesk-Regular.otf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'atlaslight'; /*a name to be used later*/
+    src: url(./images/atlas/AtlasGrotesk-Light.otf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'atlasmedium'; /*a name to be used later*/
+    src: url(./images/atlas/AtlasGrotesk-Medium.otf); /*URL to font*/
+}
+
+
+
+html, body {
+    /*height: 100%;*/
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-size: 1250px 3500px;
+    background-repeat: no-repeat;
+    background-color:white;
+    min-width:100%;
+    /*background-color:#13664D;*/
+}
+
+#page_wrap{
+	width:1250px;
+	margin-left:auto;
+    margin-right:auto;
+    /*float: left;*/
+}
+
+#order{
+ 	position: fixed;
+  	left: 0px;
+  	top: 0px;
+  	width: 100%;
+  	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+#orderContainer{
+	display: table;
+  	margin: 0 auto;
+  	width:50%;
+ 	/*position: fixed;*/
+/*  	left: 0px;
+  	top: 0px;*/
+  	/*width: 75%*/
+  	height: 100%;
+	/*background-color: red;*/
+    z-index: 10000;
+    text-align:center
+}
+
+#orderHead{
+	margin-top:20px;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#sportSelector{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top:15px;
+}
+
+#itemSelector{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top:40px;
+}
+
+#paymentSelector{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top:40px;
+}
+
+
+
+#closeOrder{
+	float:right;
+	cursor: pointer;
+}
+
+#closeOrder:hover{
+	text-decoration: none;
+	opacity:0.7;
+}
+
+#logoFront{
+	position:absolute;
+	width:1000px;
+	height:63px;
+	top:10px;
+	margin-left: 0px;
+	z-index:10;
+}
+
+#logo{
+	position:absolute;
+	width:350px;
+	margin-left:20px;
+}
+
+#jerseyBanner{
+	position: absolute;
+	width:500px;
+	height:60px;
+	margin-left:430px;
+}
+
+#slang{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size:15px;
+	color:black;
+	margin-left:410px;
+	margin-top:59px;
+}
+
+
+#foulPole{
+	position:absolute;
+	top:0;
+	margin-left:-17px;
+	width:17px;
+	height:3500px;
+	background-color:#EFDF32;
+	z-index:9;	
+}
+
+#sideBanner{
+	position:fixed;
+	width:250px;
+	height:100vh;
+	background-color:#13664D;
+	/*background-color:red;*/
+	margin-left:1015px;
+	margin-top:0;
+	z-index:9;
+}
+
+#linkContainer{
+	position:relative;
+	margin-top:65px;
+	/*background-color:blue;*/
+	width:300px;
+	height:100vh;
+}
+
+#submitLink{
+	/*position: fixed;*/
+	color:#EFDF32;
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:20px;
+	margin-left:20px;
+	width:200px;
+}
+
+#submitLink:hover{
+	color:#E0D12F;
+	cursor: pointer;
+}
+
+#otherContainer{
+	/*position:absolute;*/
+	width:250px;
+	margin-top:50px;
+}
+
+#paymentMethod{
+	position:absolute;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	/*display: block;*/
+	margin-left:40px;
+	bottom:120;
+}
+
+#paymentLogo{
+	width:170px;
+}
+
+#homeLink{
+	/*position: static;*/
+	display: inline-block;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:16px;
+	margin-left:20px;
+	text-decoration: none;
+	width:220px;
+}
+
+#homeLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#processLink{
+	/*position: static;*/
+	display: inline-block;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:16px;
+	margin-left:20px;
+	margin-top:15px;
+	text-decoration: none;
+	width:220px;
+}
+
+#processLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#ponderLink{
+	/*position: static;*/
+	margin-top:20px;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:16px;
+	display: inline-block;
+	margin-left:20px;
+	margin-top:15px;
+	text-decoration: none;
+	width:220px;
+}
+
+#ponderLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#readsLink{
+	/*position: static;*/
+	color:white;
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:16px;
+	display: inline-block;
+	margin-left:20px;
+	margin-top:15px;
+	text-decoration: none;
+	width:220px;
+}
+
+#readsLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#contactLink{
+	/*position: static;*/
+	color:white;
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:16px;
+	display: inline-block;
+	margin-left:20px;
+	margin-top:15px;
+	text-decoration: none;
+	width:220px;
+}
+
+#contactLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#topCover{
+	position:absolute;
+	background-color:white;
+	width:1001px;
+	height:100px;
+	margin-top:0;
+	margin-left:-1px;
+	z-index: 9;
+}
+
+#media{
+	position:absolute;
+	background-color:white;
+	width: 1000px; 
+	height: 700px;
+	margin-top:35px;
+	margin-left:0px;
+	z-index: 1;
+}
+
+/*#moviea{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}
+
+#movieb{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}
+
+#moviec{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}
+
+#movied{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}*/
+
+#action{
+	position:absolute;
+	background-color:white;
+	width: 1000px; 
+	height: 700px;
+	margin-top:0;
+	margin-left:0;
+	z-index:8;	
+}
+
+#actionCover{
+	position:absolute;
+	background-color:white;
+	width: 1000px; 
+	height: 700px;
+	margin-top:0;
+	margin-left:0;
+	z-index:9;
+	background-color: rgba(255, 255, 255, 0.5);	
+}
+
+#rights {
+	position:absolute;
+  font-family: Verdana, Geneva, sans-serif; ;
+  color: #000000;
+  display: block;
+/*  margin-left: auto;
+  margin-right: auto;*/
+  height: 15px; 
+  width: 230px;
+  margin-left:10px;
+  bottom:80;
+}
+
+#copyright {
+  font-family: Verdana, Geneva, sans-serif; ;
+  margin-top: 0px;
+  font-size: 9px;
+  /*width:200px;*/
+  /*padding: 0px;*/
+  margin-left: 0px;
+  position: absolute;
+  color:white;
+}
+
+#cred {
+  font-family: Verdana, Geneva, sans-serif; ;
+  font-size:9px;
+  /*width:200px;*/
+  margin-top: 0px;
+  margin-left: 880px;
+  /*padding: 5px;*/
+  position: absolute;
+  color:white; 
+  width:230px;
+}
+
+#home{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:0px;
+	/*background-color:red;*/
+	z-index:100;
+}
+#authenticationBlock{
+	position:absolute;
+	margin-top:667px;
+	z-index:9;
+	margin-left:-1px;
+	width:1000px;
+	height:68px;
+	background-color: white;
+}
+
+#authenticationTitle{
+	z-index:10;
+	position:absolute;
+	margin-top:701px;
+	font-family: Verdana, Geneva, sans-serif; ;
+}
+
+#authenticationProcess{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:701px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#authenticationContent{
+	font-family: Verdana, Geneva, sans-serif; ;
+	position:absolute;
+	margin-top:721px;
+	height:680px;
+	width:1000px;
+	overflow:scroll;
+}
+
+#ponder{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:1400px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#ponderTitle{
+	position:absolute;
+	margin-top:1401px;
+	font-family: Verdana, Geneva, sans-serif; ;
+}
+
+#reads{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:2100px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#readsTitle{
+	position:absolute;
+	margin-top:2101px;
+	font-family: Verdana, Geneva, sans-serif; ;
+}
+
+#contact{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:2800px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#contactTitle{
+	position:absolute;
+	margin-top:2801px;
+	font-family: Verdana, Geneva, sans-serif; ;
+}
+
+
+input[type=text] {
+  width: 400px;
+  height:35px;
+  padding: 12px 20px;
+  margin: 7px 0;
+  box-sizing: border-box;
+  font-size:15px;
+}
+
+#sport{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	margin-left:110px;
+}
+
+#type{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	margin-left:110px;
+	margin-top:0px;
+}
+
+#paymentOptions{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	margin-left:110px;
+	margin-top:15px;
+}
+
+#firstNameInput{
+	margin-top: 8px;
+}
+
+#baseballRadio{
+	margin-left:20px;
+}
+
+#footballRadio{
+	margin-left:20px;
+}
+
+#basketballRadio{
+	margin-left:20px;
+}
+
+#jerseyRadio{
+	margin-left:20px;
+}
+
+#hatRadio{
+	margin-left:20px;
+}
+
+#pantsRadio{
+	margin-left:20px;
+}
+
+#paypalRadio{
+	margin-left:20px;
+}
+
+#checksRadio{
+	margin-left:20px;
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:13px;
+	padding:6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+	width:390px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('https://imgur.com/vhosrbn.png') 50% 50% no-repeat #13664D;
+}*/
+
+
+
+
+
+
+
