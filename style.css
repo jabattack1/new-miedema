@@ -27,7 +27,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-size: 1250px 3500px;
+    background-size: 1250px 4500px;
     background-repeat: no-repeat;
     background-color:white;
     min-width:100%;
@@ -80,7 +80,7 @@ body {
 #itemSelector{
 	color:white;
 	font-family: Verdana, Geneva, sans-serif;
-	margin-top:40px;
+	margin-top:10px;
 }
 
 #paymentSelector{
@@ -138,7 +138,7 @@ body {
 	top:0;
 	margin-left:-17px;
 	width:17px;
-	height:3500px;
+	height:4500px;
 	background-color:#EFDF32;
 	z-index:9;	
 }
@@ -422,7 +422,7 @@ body {
 #authenticationTitle{
 	z-index:10;
 	position:absolute;
-	margin-top:701px;
+	margin-top:721px;
 	font-family: Verdana, Geneva, sans-serif; ;
 }
 
@@ -430,7 +430,7 @@ body {
 	position:absolute;
 /*	width:200px;
 	height:500px;*/
-	margin-top:701px;
+	margin-top:721px;
 	/*background-color:red;*/
 	z-index:100;
 }
@@ -438,7 +438,7 @@ body {
 #authenticationContent{
 	font-family: Verdana, Geneva, sans-serif; ;
 	position:absolute;
-	margin-top:721px;
+	margin-top:741px;
 	height:680px;
 	width:1000px;
 	overflow:scroll;
@@ -448,14 +448,14 @@ body {
 	position:absolute;
 /*	width:200px;
 	height:500px;*/
-	margin-top:1400px;
+	margin-top:1440px;
 	/*background-color:red;*/
 	z-index:100;
 }
 
 #ponderTitle{
 	position:absolute;
-	margin-top:1401px;
+	margin-top:1441px;
 	font-family: Verdana, Geneva, sans-serif; ;
 }
 
@@ -487,6 +487,24 @@ body {
 	position:absolute;
 	margin-top:2801px;
 	font-family: Verdana, Geneva, sans-serif; ;
+}
+
+#contact{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:2801px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#contactContent{
+	font-family: Verdana, Geneva, sans-serif; ;
+	position:absolute;
+	margin-top:2821px;
+	height:680px;
+	width:1000px;
+	overflow:scroll;	
 }
 
 
@@ -606,6 +624,21 @@ input[type=text] {
 	font-family: Verdana, Geneva, sans-serif;
 	color:white;
 	font-size:10px;	
+}
+
+#no{
+	font-weight: bold;
+}
+
+#checkBox{
+	margin-left:210px;
+	margin-top:5px;
+}
+
+#checkContainer{
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	font-size:12px;	
 }
 
 /*.loader {
