@@ -20,8 +20,8 @@ html, body {
 }
 
 html {
-    display: table;
-    margin: auto;
+/*    display: table;
+    margin: auto;*/
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     background-size: 1250px 3500px;
     background-repeat: no-repeat;
     background-color:white;
-    /*min-width:100%;*/
+    min-width:100%;
     /*background-color:#13664D;*/
 }
 
