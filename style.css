@@ -30,7 +30,7 @@ body {
     background-size: 1250px 3500px;
     background-repeat: no-repeat;
     background-color:white;
-    min-width:100%;
+    /*min-width:100%;*/
     /*background-color:#13664D;*/
 }
 
@@ -172,6 +172,21 @@ body {
 }
 
 #submitLink:hover{
+	color:#E0D12F;
+	cursor: pointer;
+}
+
+#submitLink2{
+	/*position: fixed;*/
+	color:#EFDF32;
+	/*text-shadow: 2px 2px 2px black;*/
+	font-family: Verdana, Geneva, sans-serif; ;
+	font-size:40px;
+	margin-left:20px;
+	width:200px;
+}
+
+#submitLink2:hover{
 	color:#E0D12F;
 	cursor: pointer;
 }
@@ -397,6 +412,7 @@ body {
 	width:1000px;
 	height:68px;
 	background-color: white;
+	text-align:center;
 }
 
 #authenticationTitle{
@@ -564,7 +580,9 @@ input[type=text] {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #154682;
 	width:390px;
+	/*z-index: 1000;*/
 }
+
 .myButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
 	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
