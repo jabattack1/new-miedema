@@ -30,7 +30,7 @@ body {
     background-size: 1250px 3500px;
     background-repeat: no-repeat;
     background-color:white;
-    /*min-width:100%;*/
+    min-width:100%;
     /*background-color:#13664D;*/
 }
 
@@ -145,13 +145,17 @@ body {
 
 #sideBanner{
 	position:fixed;
-	width:250px;
-	height:100vh;
+	/*width:250px;*/
+	/*height:100vh;*/
 	background-color:#13664D;
 	/*background-color:red;*/
 	margin-left:1015px;
 	margin-top:0;
 	z-index:9;
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 #linkContainer{
@@ -407,7 +411,7 @@ body {
 #authenticationBlock{
 	position:absolute;
 	margin-top:667px;
-	z-index:9;
+	z-index:8;
 	margin-left:-1px;
 	width:1000px;
 	height:68px;
