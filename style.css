@@ -27,18 +27,19 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-size: 1250px 4500px;
+    /*background-size: 1250px 4500px;*/
     background-repeat: no-repeat;
-    background-color:white;
+    background-color:#13664D;
     min-width:100%;
     /*background-color:#13664D;*/
 }
 
 #page_wrap{
-	width:1250px;
-	margin-left:auto;
-    margin-right:auto;
-    /*float: left;*/
+	width:800px;
+	margin-left:353px;
+	/*margin-left:417px;
+    /*margin-right:auto;*/
+    /*float: left;*/*/
 }
 
 #order{
@@ -103,40 +104,59 @@ body {
 
 #logoFront{
 	position:absolute;
-	width:1000px;
-	height:63px;
-	top:10px;
-	margin-left: 0px;
+	width:800px;
+	height:60px;
+	top:0px;
+	margin-left:0px;
 	z-index:10;
+	/*background-color:red;*/
 }
 
 #logo{
 	position:absolute;
 	width:350px;
 	margin-left:20px;
+	margin-top:20px;
 }
 
 #jerseyBanner{
-	position: absolute;
-	width:500px;
-	height:60px;
-	margin-left:430px;
+	/*position: absolute;*/
+	width:750px;
+	height:90px;
+	/*top:20px;*/
+	/*margin-left:430px;*/
+    display:block;
+    margin:auto;
+    /*background-color:red;*/
 }
 
 #slang{
 	position:absolute;
 	font-family: Verdana, Geneva, sans-serif; 
-	font-size:15px;
-	color:black;
-	margin-left:410px;
-	margin-top:59px;
+	font-size:9px;
+	color:white;
+	/*text-align: center;*/
+	margin-left:20px;
+	bottom:15;
+	/*margin-left:410px;*/
+	/*margin-top:59px;*/
 }
 
 
 #foulPole{
 	position:absolute;
 	top:0;
-	margin-left:-17px;
+	margin-left:400px;
+	width:17px;
+	height:4500px;
+	background-color:#EFDF32;
+	z-index:9;	
+}
+
+#foulPole2{
+	position:absolute;
+	top:0;
+	margin-left:800px;
 	width:17px;
 	height:4500px;
 	background-color:#EFDF32;
@@ -145,11 +165,12 @@ body {
 
 #sideBanner{
 	position:fixed;
-	/*width:250px;*/
+	width:400px;
+	height:100%;
 	/*height:100vh;*/
 	background-color:#13664D;
 	/*background-color:red;*/
-	margin-left:1015px;
+	margin-left:0px;
 	margin-top:0;
 	z-index:9;
 	top: 0;
@@ -159,19 +180,20 @@ body {
 }
 
 #linkContainer{
-	position:relative;
-	margin-top:65px;
+	position:absolute;
+	margin-top:0px;
 	/*background-color:blue;*/
-	width:300px;
+	width:400px;
 	height:100vh;
 }
 
 #submitLink{
-	/*position: fixed;*/
+	position: absolute;
 	color:#EFDF32;
 	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:20px;
 	margin-left:20px;
+	margin-top:130px;
 	width:200px;
 }
 
@@ -198,7 +220,7 @@ body {
 #otherContainer{
 	/*position:absolute;*/
 	width:250px;
-	margin-top:50px;
+	margin-top:200px;
 }
 
 #paymentMethod{
@@ -302,19 +324,19 @@ body {
 #topCover{
 	position:absolute;
 	background-color:white;
-	width:1001px;
-	height:100px;
+	width:800px;
+	height:90px;
 	margin-top:0;
-	margin-left:-1px;
+	margin-left:0px;
 	z-index: 9;
 }
 
 #media{
 	position:absolute;
 	background-color:white;
-	width: 1000px; 
+	width: 800px; 
 	height: 700px;
-	margin-top:35px;
+	margin-top:0px;
 	margin-left:0px;
 	z-index: 1;
 }
@@ -346,7 +368,7 @@ body {
 #action{
 	position:absolute;
 	background-color:white;
-	width: 1000px; 
+	width: 800px; 
 	height: 700px;
 	margin-top:0;
 	margin-left:0;
@@ -356,7 +378,7 @@ body {
 #actionCover{
 	position:absolute;
 	background-color:white;
-	width: 1000px; 
+	width: 800px; 
 	height: 700px;
 	margin-top:0;
 	margin-left:0;
@@ -366,21 +388,20 @@ body {
 
 #rights {
 	position:absolute;
-  font-family: Verdana, Geneva, sans-serif; ;
-  color: #000000;
-  display: block;
-/*  margin-left: auto;
-  margin-right: auto;*/
-  height: 15px; 
-  width: 230px;
-  margin-left:10px;
-  bottom:80;
+  	font-family: Verdana, Geneva, sans-serif; 
+  	font-size:9px;
+  	color: #000000;
+  	display: block;
+ 	height: 15px; 
+  	width: 230px;
+  	margin-left:20px;
+  	bottom:3;
 }
 
 #copyright {
-  font-family: Verdana, Geneva, sans-serif; ;
+  font-family: Verdana, Geneva, sans-serif; 
   margin-top: 0px;
-  font-size: 9px;
+  /*font-size: 9px;*/
   /*width:200px;*/
   /*padding: 0px;*/
   margin-left: 0px;
@@ -410,12 +431,12 @@ body {
 }
 #authenticationBlock{
 	position:absolute;
-	margin-top:667px;
+	margin-top:525px;
 	z-index:8;
-	margin-left:-1px;
-	width:1000px;
-	height:68px;
-	background-color: white;
+	margin-left:0px;
+	width:800px;
+	height:1450px;
+	background-color:#C69341;
 	text-align:center;
 }
 
@@ -436,11 +457,12 @@ body {
 }
 
 #authenticationContent{
-	font-family: Verdana, Geneva, sans-serif; ;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size:13px;
 	position:absolute;
 	margin-top:741px;
 	height:680px;
-	width:1000px;
+	width:800px;
 	overflow:scroll;
 }
 
@@ -503,7 +525,7 @@ body {
 	position:absolute;
 	margin-top:2821px;
 	height:680px;
-	width:1000px;
+	width:800px;
 	overflow:scroll;	
 }
 
