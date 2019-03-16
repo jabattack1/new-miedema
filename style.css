@@ -436,14 +436,15 @@ body {
 	z-index:8;
 	margin-left:0px;
 	width:800px;
-	height:1450px;
-	background-color:#C69341;
+	height:1600px;
+	background-color:#E2B128;
 	text-align:center;
 }
 
 #authenticationTitle{
 	z-index:10;
 	position:absolute;
+	font-size:26px;
 	margin-top:540px;
 	font-family: Verdana, Geneva, sans-serif; 
 	/*margin-left:20px;*/
@@ -463,13 +464,13 @@ body {
 #authenticationContent{
 	font-family: Verdana, Geneva, sans-serif; 
 	/*display: inline-block;*/
-	font-size:14px;
+	font-size:15px;
 	position:absolute;
 	/*margin: 0 auto;*/
 	margin-top:580px;
-	height:1370px;
+	height:1500px;
 	width:800px;
-	overflow:scroll;
+	/*overflow:scroll;*/
 	/*background-color:red;*/
 	z-index:9;
 	text-align: center;
