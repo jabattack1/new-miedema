@@ -35,8 +35,9 @@ body {
 }
 
 #page_wrap{
+	position:absolute;
 	width:800px;
-	margin-left:353px;
+	left:417;
 	/*margin-left:417px;
     /*margin-right:auto;*/
     /*float: left;*/*/
@@ -137,7 +138,7 @@ body {
 	color:white;
 	/*text-align: center;*/
 	margin-left:20px;
-	bottom:15;
+	bottom:20;
 	/*margin-left:410px;*/
 	/*margin-top:59px;*/
 }
