@@ -444,7 +444,7 @@ body {
 #authenticationTitle{
 	z-index:10;
 	position:absolute;
-	font-size:26px;
+	font-size:24px;
 	margin-top:540px;
 	font-family: Verdana, Geneva, sans-serif; 
 	/*margin-left:20px;*/
@@ -464,7 +464,7 @@ body {
 #authenticationContent{
 	font-family: Verdana, Geneva, sans-serif; 
 	/*display: inline-block;*/
-	font-size:15px;
+	font-size:14px;
 	position:absolute;
 	/*margin: 0 auto;*/
 	margin-top:580px;
